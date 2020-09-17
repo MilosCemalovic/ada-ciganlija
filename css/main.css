@@ -175,9 +175,16 @@ body {
   font-size: .8rem;
 }
 
-@media only screen and (max-width: 56.25em) {
+@media only screen and (max-width: 37.5em) {
   .user-box__notification {
-    top: .8rem;
+    top: 1.7rem;
+    right: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .user-box__notification {
+    top: .5rem;
     right: 1.2rem;
   }
 }

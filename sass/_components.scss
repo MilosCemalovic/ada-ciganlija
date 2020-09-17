@@ -103,8 +103,13 @@
     justify-content: center;
     font-size: .8rem;
 
-    @media only screen and (max-width: $bp-medium) {
-      top: .8rem;
+    @media only screen and (max-width: $bp-small) {
+      top: 1.7rem;
+      right: 1.2rem;
+    }
+
+    @media only screen and (max-width: $bp-smallest) {
+      top: .5rem;
       right: 1.2rem;
     }
   }
