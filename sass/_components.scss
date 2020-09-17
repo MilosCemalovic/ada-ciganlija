@@ -316,7 +316,6 @@
 }
 
 .btn-inline {
-  background-color: transparent;
   text-decoration: none;
   border: none;
   color: var(--color-green-light);
@@ -326,11 +325,11 @@
   display: inline-block;
   transition: all .2s;
   padding-bottom: 2px;
+  background-color: #fff;
+  padding: .5rem 1rem;
 
   &:hover {
     animation: pulsate 1s infinite;
-    background-color: #fff;
-    padding: .15rem .3rem;
     
     span {
       margin-left: 8px;
