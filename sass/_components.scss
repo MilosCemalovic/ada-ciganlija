@@ -102,6 +102,11 @@
     align-items: center;
     justify-content: center;
     font-size: .8rem;
+
+    @media only screen and (max-width: $bp-medium) {
+      top: .8rem;
+      right: 1.2rem;
+    }
   }
 
 }

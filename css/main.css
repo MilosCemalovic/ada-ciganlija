@@ -175,6 +175,13 @@ body {
   font-size: .8rem;
 }
 
+@media only screen and (max-width: 56.25em) {
+  .user-box__notification {
+    top: .8rem;
+    right: 1.2rem;
+  }
+}
+
 .user__photo {
   width: 3.7rem;
   border-radius: 50%;
