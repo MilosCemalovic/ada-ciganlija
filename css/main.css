@@ -185,6 +185,9 @@ body {
   font-size: 1.4rem;
   list-style: none;
   margin-top: 3.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 2000;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -685,6 +688,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 2000;
 }
 
 .hotel-view {

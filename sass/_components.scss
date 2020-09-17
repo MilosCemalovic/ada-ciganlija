@@ -122,6 +122,9 @@
   font-size: 1.4rem;
   list-style: none;
   margin-top: 3.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 2000;
 
   @media only screen and (max-width: $bp-medium) {
     display: flex;
@@ -385,6 +388,7 @@
       // background-image: url(../img/chevron-thin-right.svg);
       // background-size: cover;
       background-color: var(--color-primary);
+      -webkit-mask-image: url(../img/chevron-thin-right.svg);
       mask-image: url(../img/chevron-thin-right.svg);
       mask-size: cover;
       height: 1rem;
